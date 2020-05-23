@@ -16,12 +16,10 @@ fs.writeFileSync(readmePath, content, 'utf-8')
 const manifest = {
   list: files.map(f => ({
     id: f.split(' ')[0].replace('#', ''),
-    name: f
+    name: f.replace('.md', '')
   }))
 }
 
 const manifestPath = join(__dirname, '..', 'manifest.json')
-if (fs.existsSync(manifestPath)) {
-  fs.removeSync(manifestPath)
-}
+
 fs.writeFileSync(manifestPath, JSON.stringify(manifest))
