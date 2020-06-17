@@ -1,6 +1,12 @@
 {
   "list": [
     {
+      "id": "3",
+      "title": "前端视角下的 DevOps",
+      "keywords": ["CI", "CD", "devops", "前端"],
+      "createTime": "2020.06.17"
+    },
+    {
       "id": "2",
       "title": "关于驾驶和旅行",
       "keywords": ["驾驶", "旅行", "自驾游", "泸沽湖", "青海湖"],
