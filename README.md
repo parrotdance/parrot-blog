@@ -5,13 +5,13 @@
 
 ### 目录
 
-- [AirPods Pro 使用体验.md](./src/AirPods Pro 使用体验.md)
+- [AirPods Pro 使用体验.md](./src/AirPods%20Pro%20使用体验.md)
 
-- [As life, without LIES.md](./src/As life, without LIES.md)
+- [As life, without LIES.md](./src/As%20life,%20without%20LIES.md)
 
-- [《高性能 JavaScript》笔记.md](./src/《高性能 JavaScript》笔记.md)
+- [《高性能 JavaScript》笔记.md](./src/《高性能%20JavaScript》笔记.md)
 
-- [一年 | 2020.md](./src/一年 | 2020.md)
+- [一年 | 2020.md](./src/一年%20|%202020.md)
 
 - [为重启的博客作序.md](./src/为重启的博客作序.md)
 
@@ -19,7 +19,7 @@
 
 - [关于驾驶和旅行.md](./src/关于驾驶和旅行.md)
 
-- [前端视角下的 DevOps.md](./src/前端视角下的 DevOps.md)
+- [前端视角下的 DevOps.md](./src/前端视角下的%20DevOps.md)
 
 - [在拉萨的无神论者.md](./src/在拉萨的无神论者.md)
 

@@ -11,10 +11,14 @@ const header =
 
 ### 目录
 `
+
+const resolveFileUrl = file => {
+  return file.replace(/\s/g, '%20')
+}
 const content = fs
   .readdirSync(filesPath)
   .reduce(
-    (content, file) => content + `\n- [${file}](./src/${file})\n`,
+    (content, file) => content + `\n- [${file}](./src/${resolveFileUrl(file)})\n`,
     header
   )
 
