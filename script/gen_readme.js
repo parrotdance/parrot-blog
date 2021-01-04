@@ -1,17 +1,21 @@
 const fs = require('fs')
 const { join } = require('path')
 
-const files = fs.readdirSync(join(__dirname, '..', 'src'))
-
-// generate README.md
+const filesPath = join(__dirname, '..', 'src')
 const readmePath = join(__dirname, '..', 'README.md')
-const header = `# 链接\n
-  [鹦鹉究竟说了什么](https://www.parrotdance.art)\n
-  # 目录\n
+const header = 
 `
-const content = files.reduce((content, file) => 
-  content + `- [${file}](./src/${file})\n`,
-  header
-)
+### 链接
+
+  [鹦鹉究竟说了什么](https://www.parrotdance.art)
+
+### 目录
+`
+const content = fs
+  .readdirSync(filesPath)
+  .reduce(
+    (content, file) => content + `\n- [${file}](./src/${file})\n`,
+    header
+  )
 
 fs.writeFileSync(readmePath, content, 'utf-8')
